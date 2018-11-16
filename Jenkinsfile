@@ -1,8 +1,8 @@
 pipeline {
     agent none
     environment {
-        imageName = 'poemwihe/Demo'
-        port = 3030
+        imageName = 'poemwihe/demo'
+        port = 80
     }
     
     stages {
